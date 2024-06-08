@@ -1,0 +1,28 @@
+body {
+    background: #24353f;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+#container {
+    background: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 60%;
+    color: #fff;
+    padding: 40px;
+
+}
+
+button a {
+    text-decoration: none;
+}
+
+.smart-login a {
+    text-decoration: none;
+}

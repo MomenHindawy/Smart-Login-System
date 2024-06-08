@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="container" class="container text-center pt-5 my-5">
+        <h1>Smart Login System</h1>
+        <div class="smart-login m-auto  mt-5">
+            <div class="mb-3 row">
+                <div class="col-sm-10 m-auto pb-3">
+                    <input class="form-control bg-transparent text-white " list="datalistOptions" id="registerName"
+                        placeholder="Enter Your Name...">
+                </div>
+                <div class="col-sm-10 m-auto">
+                    <input class="form-control bg-transparent text-white " list="datalistOptions" id="registerEmail"
+                        placeholder="Enter Your email...">
+                </div>
+                <div class="col-sm-10 m-auto py-3">
+                    <input class="form-control bg-transparent text-white " list="datalistOptions" id="registerPassword"
+                        placeholder="Enter Your password...">
+                </div>
+                <p id="alirt" class=" text-danger d-none">All inputs is required</p>
+                <p id="alirtDone" class=" text-success d-none">Success</p>
+                <div class="col-sm-10 m-auto pt-3">
+                    <button onclick="register()" id="Sign-Up" type="button" class="btn btn-outline-info w-100">Sign
+                        Up</button>
+                </div>
+            </div>
+
+            <p>Don’t have an account ? <a href="index.html">Sign in</a></p>
+        </div>
+
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
